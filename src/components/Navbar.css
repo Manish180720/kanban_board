@@ -1,0 +1,37 @@
+/* Navbar.css */
+.button-wrapper {
+    position: relative;
+    margin-left: 30px;
+    flex-direction: row;
+  }
+  
+/* Navbar.css */
+.button-wrapper {
+    display: flex;
+    justify-content: flex-start; /* Align button to the left */
+    align-items: left; /* Vertically center button */
+
+  }
+  
+  .button {
+    /* Your button styles, e.g., background-color, padding, etc. */
+    text-align: left; /* Align text (button label) to the left */
+    margin-bottom: 10px; /* Add space between button and dropdowns */
+  }
+  
+  .custom-dropdown {
+    position: absolute;
+    margin-left: 60px;
+    background-color: #fff; /* Add your background color */
+    /* Add any other styles for the dropdown */
+  }
+  .button.active{
+    justify-content: flex-start;
+  }
+  
+  .button.active + .custom-dropdown {
+    display: block; /* Show the dropdown when the button is active */
+    justify-content: flex-start;
+  }
+  
+  

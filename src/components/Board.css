@@ -1,0 +1,40 @@
+.kanban-board {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+
+.board-columns {
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    border: 1px solid #ffffff;
+    /* margin-left: 30px; */
+}
+h2{
+    margin-left: 10px;
+}
+.boardColumns{
+    border: 0px #ffffff;
+}
+
+.options{
+    align-items: start;
+    position: sticky;
+    margin-left: 28px;
+}
+
+.navabar{
+    background-color: aqua;
+}

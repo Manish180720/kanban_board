@@ -1,0 +1,67 @@
+/* Ticket.css */
+
+.ticket-card {
+    position: relative; /* Create a relative positioning context for the card */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    width: 350px;
+  }
+  
+
+  .ticket-id{
+    text-align: left;
+  }
+  .user-circle {
+    position: absolute; /* Position the user icon absolutely within the card */
+    top: 5px; /* Adjust the top position as needed */
+    right: 5px; /* Adjust the right position as needed */
+    width: 20px; /* Set the width and height of the user icon */
+    height: 30px;
+    border-radius: 50%; /* Make it round */
+    overflow: hidden; /* Clip the image inside the round icon */
+    background-color: #f0f0f0; /* Background color for the icon */
+  }
+  
+  .user-circle img {
+    max-width: 100%; /* Ensure the image fits within the round icon */
+    max-height: 100%; /* Ensure the image fits within the round icon */
+    border-radius: 50%; /* Make the image itself round */
+  }
+  /* Ticket.css */
+
+.ticket-title {
+    text-align: left;
+     /* Align text to the left side */
+  }
+.ticket-tags{
+    /* margin-top: 30px; */
+    text-align: left;
+    color: #b0acac;
+}
+
+/* Ticket.css */
+
+/* Ticket.css */
+
+.ticket-tags {
+    position: relative;
+    padding-left: 20px; /* Add padding to the left of the text */
+  
+    /* Style for the circular marker */
+  }
+  
+  .ticket-tags::before {
+    content: "\2022"; /* Use the HTML entity for a solid circle */
+    position: absolute;
+    left: 4px; /* Adjust the left position to bring the icon closer to the text */
+    top: 29%;
+    transform: translateY(-50%);
+    color: #e1dddd;
+    font-size: 40px;
+    line-height: 1;
+  }
+  
+  

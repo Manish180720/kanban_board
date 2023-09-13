@@ -1,0 +1,20 @@
+.group-title {
+    display: flex;
+    align-items: center;
+    /* ... other styles ... */
+  }
+  
+  .progress-count {
+    display: flex;
+    align-items: center; /* This will align the progress and number vertically centered to each other */
+    gap: 5px; /* Gap between progress and number */
+  }
+  
+  .icon-buttons{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    padding-left: 180px; 
+    color : rgb(24, 4, 4);
+    font-size: large;
+  }

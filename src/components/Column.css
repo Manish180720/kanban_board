@@ -1,0 +1,22 @@
+.boardColumn {
+    display: block;
+    justify-content: center;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 0px solid #e6e6e6;
+    border-radius: 4px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-left: 10px;
+  }
+.count{
+    margin-left: 20px;
+}
+.boardColumn .icon-buttons {
+    justify-content: end;
+    align-items: right;
+  }
